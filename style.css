@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 300vh;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.bebiadiv{
+    width: calc(100% / 3);
+    height: 100vh;
+}
+
+.bebia{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.blackdiv{
+    width: calc(100% / 3);
+    height: 100vh;
+    background-color: #151515;
+}
+
+
+
+.whitediv{
+    width: calc(100% / 3);
+    height: 100vh;
+}
+
+
+.firsth1{
+    position: absolute;
+    mix-blend-mode: difference;
+    font-size: 45px;
+    left: 210px;
+    top: 200px;
+    color: white;
+}
+
+.righttextbut{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    top: 200px;
+    right: 210px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.button{
+    display: flex;
+    background-color: #151515;
+    padding: 20px 30px; 
+    border: none;
+    color: white;
+}
+
+.buttonimage{
+    display: flex;
+    height: 55px;
+}
+
+.button1{
+    text-decoration: none;
+    color: white;
+}
+
+.firstp{
+    font-size: 18px;
+    color: #444;
+}
+
+
+
+@media(max-width: 700px){
+
+    .blackdiv{
+        display: none;
+    }
+
+    .bebiadiv{
+        position: relative;
+        width: 50%;
+        z-index: -1;
+    }
+
+    .bebia {
+        position: relative;
+        z-index: -1;
+    }
+
+    .whitediv{
+        width: 50%;
+    }
+
+    .firsth1{
+        position: absolute;
+        right: 80px;
+        top: 150px;
+        color: black;
+        z-index: 10;
+        mix-blend-mode: normal;
+    }
+
+
+    .righttextbut{
+        right: 80px;
+        top: 300px;
+    }
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+}
+
+.toppart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.lasttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.rigthphoto{
+    width: 50%;
+}
+
+.ragacdarbazi{
+    width: 100%;
+}
+
+.bottompart{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.leftbphoto{
+    width: 65%;
+    height: 50%;
+}
+
+.rigthbdiv{
+    width: 40%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.leftbphoto1{
+    width: 100%;
+}
+
+
+.rightbph{
+    width: 100%;
+    height: 50%;
+}
+
+
+.blackbdiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    padding: 50px 40px;
+    color: white;
+}
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.footerleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.fp{
+    color: white;
+}
